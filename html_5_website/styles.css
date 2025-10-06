@@ -1,11 +1,9 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body */
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: #fdf6f9;
@@ -13,7 +11,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header */
 header {
     background-color: #eac7d8;
     color: #000000;
@@ -28,7 +25,6 @@ header h1 {
     color: #5e3b47;
 }
 
-/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
@@ -50,27 +46,21 @@ nav a:hover {
     color: #9b6b82;
 }
 
-/* Main Body */
 main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 2rem;
     background-color: #ffffff;
     border-radius: 16px;
-    box-shadow: 0 6px 16px rgba(0,0,0,0.08);
 }
-
-/* Section Headings */
 main h2 {
     text-align: center;
     color: #5e3b47;
     margin-bottom: 1.5rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
     border-bottom: 2px solid #eac7d8;
     padding-bottom: 0.5rem;
 }
-
-/* Articles */
 article {
     background-color: #fff;
     margin-bottom: 1.5rem;
@@ -78,13 +68,10 @@ article {
     border-radius: 12px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.05);
 }
-
-/* Lists */
 ul, ol {
     padding-left: 1.5rem;
 }
 
-/* Fieldsets (Form Layout) */
 form fieldset {
     border: 2px solid #eac7d8;
     border-radius: 12px;
@@ -100,7 +87,6 @@ form legend {
     font-size: 1.1rem;
 }
 
-/* Form Labels & Inputs */
 form p {
     margin-bottom: 1rem;
     display: flex;
@@ -122,14 +108,12 @@ input, select, textarea {
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
-/* Focus Effects */
 input:focus, select:focus, textarea:focus {
     outline: none;
     border-color: #d48aa0;
     box-shadow: 0 0 6px rgba(212,138,160,0.4);
 }
 
-/* Checkboxes and Radio Buttons */
 input[type="checkbox"],
 input[type="radio"] {
     width: auto;
@@ -185,12 +169,6 @@ th {
     color: #5e3b47;
     font-weight: 600;
 }
-
-tr:nth-child(even) {
-    background-color: #fdf2f6;
-}
-
-/* Footer */
 footer {
     background-color: #eac7d8;
     text-align: center;
@@ -209,8 +187,6 @@ footer nav ul {
     justify-content: center;
     margin: 0.5rem 0;
 }
-
-/* Links */
 a {
     color: #7d4f63;
     text-decoration: none;
@@ -222,68 +198,3 @@ a:hover {
     color: #9b6b82;
 }
 
-/* Contact Info Section */
-.contact-info {
-    background-color: #fff;
-    border: 1px solid #eac7d8;
-    padding: 1.5rem;
-    border-radius: 12px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
-    margin-top: 2rem;
-}
-
-.contact-info h3 {
-    color: #5e3b47;
-    margin-bottom: 1rem;
-    font-size: 1.3rem;
-    border-bottom: 2px solid #eac7d8;
-    padding-bottom: 0.5rem;
-}
-
-.contact-info address {
-    font-style: normal;
-    line-height: 1.8;
-    color: #333;
-}
-
-.contact-info a {
-    color: #7d4f63;
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    color: #9b6b82;
-    text-decoration: underline;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    nav ul {
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    main {
-        margin: 1rem;
-        padding: 1.5rem;
-    }
-
-    form p {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    label {
-        flex: none;
-        margin-bottom: 0.4rem;
-    }
-
-    input, select, textarea {
-        width: 100%;
-    }
-
-    input[type="submit"], input[type="reset"] {
-        width: 100%;
-        margin-top: 0.8rem;
-    }
-}
