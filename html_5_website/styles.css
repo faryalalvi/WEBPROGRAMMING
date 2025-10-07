@@ -1,10 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+     margin: 0;
+    padding: 0;
     font-family: 'Times New Roman', Times, serif;
     background-color: #fdf6f9;
     color: #000000;
@@ -120,7 +116,6 @@ input[type="radio"] {
     margin-right: 8px;
 }
 
-/* Buttons */
 input[type="submit"], 
 input[type="reset"], 
 button {
@@ -140,16 +135,13 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover {
     background: #9b6b82;
-    transform: translateY(-2px);
 }
 
-/* Textarea */
 textarea {
     resize: vertical;
     min-height: 100px;
 }
 
-/* Tables (for Products / Registration Data) */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -197,4 +189,3 @@ a:hover {
     text-decoration: underline;
     color: #9b6b82;
 }
-
