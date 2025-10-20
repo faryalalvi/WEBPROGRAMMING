@@ -1,0 +1,27 @@
+{
+  "name": "webprogramming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faryalalvi/WEBPROGRAMMING.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faryalalvi/WEBPROGRAMMING/issues"
+  },
+  "homepage": "https://github.com/faryalalvi/WEBPROGRAMMING#readme",
+  "devDependencies": {
+    "tailwindcss": "^4.1.15"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.15",
+    "@tailwindcss/vite": "^4.1.15"
+  }
+}
